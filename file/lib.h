@@ -1,21 +1,9 @@
-#include <stdio.h>
-
 void createFile(char str[]);
 void readFile(char fileName[]);
 void WriteToFile(char fileName[]);
 void AppendToFile(char fileName[]);
 void addLine(FILE *fptr);
 
-int main(){
-    char ch;
-    char fileName[] = "jay.txt";
-    createFile(fileName);
-    // readFile(fileName);
-    AppendToFile(fileName);
-    readFile(fileName);
-    
-    return 0;
-}
 
 void createFile(char fileName[]){
     FILE *fptr;
