@@ -1,0 +1,1 @@
+gcc one.c -ljson-c
