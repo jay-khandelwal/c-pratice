@@ -1,0 +1,3 @@
+
+
+gcc -o extern main.c way1.c way2.c
