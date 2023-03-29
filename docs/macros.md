@@ -1,5 +1,5 @@
 
-check docs/macros, before going through this
+check docs/define, before going through this
 
 Macros can also be used for more complex tasks, such as creating custom language constructs or performing conditional compilation.
 For example, the following code defines a macro named DEBUG_PRINT that prints a debug message to the console if a certain macro is defined:
